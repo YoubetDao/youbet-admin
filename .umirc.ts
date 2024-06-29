@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: 'YouBet',
   },
   routes: [
     {
@@ -18,6 +18,11 @@ export default defineConfig({
       name: '目标列表',
       path: '/goals',
       component: './Goal',
+    },
+    {
+      name: '事件列表',
+      path: '/events',
+      component: './Event',
     },
   ],
   npmClient: 'pnpm',
