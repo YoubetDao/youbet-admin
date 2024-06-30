@@ -24,6 +24,16 @@ export default defineConfig({
       path: '/events',
       component: './Event',
     },
+    {
+      name: 'CROAK',
+      path: '/croak',
+      component: './CROAK',
+    },
+    {
+      name: 'EFROG',
+      path: '/efrog',
+      component: './EFROG',
+    },
   ],
   npmClient: 'pnpm',
 });
